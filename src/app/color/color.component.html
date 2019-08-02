@@ -1,0 +1,3 @@
+<p>color works!</p>
+<input [value]="color" (change)="updateColor($event.target.value)">
+<p [style.background]="color" style="width: 150px;height: 50px;border: 1px black solid"></p>
